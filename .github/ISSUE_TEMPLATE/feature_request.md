@@ -4,17 +4,13 @@ about: Suggest an idea for this project
 title: ''
 labels: ''
 assignees: ''
-
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**당신이 좋아하는 솔루션을 설명해주세요**
+당신이 원하는 일에 대한 명확하고 간결한 설명을 해주세요.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**당신이 고려하고 있는 대안을 설명해주세요**
+당신이 고려하고 있는 대체 솔루션을 명확하고 간결하게 설명해주세요.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**추가적인 말**
+문제에 대한 추가적인 말씀을 적어주세요.
