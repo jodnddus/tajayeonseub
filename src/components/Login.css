@@ -1,11 +1,15 @@
 .Login {
     width: 30%;
     height: 600px;
-    margin: 0 auto;
-    border: 1px solid gray;
+    margin: 20px auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 p{
-    font-size: 1.2em;
+    font-size: 2em;
 }
 input, button{
     width: 80%;
@@ -13,6 +17,7 @@ input, button{
 }
 
 input {
+    outline: none;
     border-color: transparent; 
     border-bottom: 1px solid gray;
     font-size: 20px;
@@ -23,6 +28,7 @@ button{
     border: none;
     color: white;
     font-size: 15px;
+    border-radius: 5px;
 }
 
 .loginBtn button{
