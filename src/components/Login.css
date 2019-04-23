@@ -1,0 +1,53 @@
+.Login {
+    width: 30%;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+p{
+    font-size: 1.2em;
+}
+input, button{
+    width: 80%;
+    height: 40px;
+}
+
+input {
+    border-color: transparent; 
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.loginBtn button{
+    margin: 30px auto;
+    background: rgb(63,136,222);
+
+}
+.loginBtn button:hover{
+    margin: 30px auto;
+    background: rgb(47, 106, 174);
+
+}
+
+.socialLogin button{
+    margin-bottom: 15px;
+    background: rgb(203,69,67);
+}
+.socialLogin button:hover{
+    margin-bottom: 15px;
+    background: rgb(160, 52, 50);
+}
+
+.socialLogin button:nth-last-child(1){
+    background: rgb(67,107,199)
+}
+.socialLogin button:nth-last-child(1):hover{
+    background: rgb(56, 89, 165)
+}
