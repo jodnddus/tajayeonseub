@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Login.css'
 
 class Login extends Component {
@@ -17,6 +18,7 @@ class Login extends Component {
             <button>Login with GOOGLE</button><br />
             <button>Login with FACEBOOK</button>
         </div>
+        <Link to={'/test'}>to test</Link>
       </div>
     );
   }
