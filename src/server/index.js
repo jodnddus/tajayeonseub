@@ -3,6 +3,7 @@ import React from "react";
 import { StaticRouter } from 'react-router-dom';
 import { renderToString } from "react-dom/server";
 import App from '../shared/App';
+import { filteredById } from './data/data';
 import fs from 'fs';
 import path from 'path';
 import "@babel/polyfill";
@@ -38,6 +39,13 @@ const serverRender = async (req, res) => {
 
   res.send(createPage(appRenderingResult));
 };
+
+app.get("/article/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  let articleData = filteredById(id);
+  //클라이언트로 반환
+  res.send(articleData);
+});
 
 app.get("*", (req, res) => {
   console.log("app.get func");
