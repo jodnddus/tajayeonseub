@@ -8,15 +8,15 @@ class Login extends Component {
       <div className="Login">
         <p>Login Page</p>
         <div className="inputBlock">
-            <input type="text" placeholder="Email"></input><br />
-            <input type="text" placeholder="Password"></input>
+          <input type="text" placeholder="Email"></input><br />
+          <input type="text" placeholder="Password"></input>
         </div>
         <div className="loginBtn">
-            <button>Login</button>
+          <button>Login</button>
         </div>
         <div className="socialLogin">
-            <button>Login with GOOGLE</button><br />
-            <button>Login with FACEBOOK</button>
+          <button>Login with GOOGLE</button><br />
+          <button>Login with FACEBOOK</button>
         </div>
         <Link to={'/test'}>to test</Link>
       </div>

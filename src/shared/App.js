@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Login from '../components/login';
-import test from '../components/test';
-import './App.css';
+import { Login, Home, tajayeonseub, test } from '../components/index';
 
 class App extends Component {
   render() {
@@ -10,6 +8,8 @@ class App extends Component {
       <div>
         <Route exact={true} path={'/login'} component={Login} />
         <Route exact={true} path={'/test'} component={test} />
+        <Route exact={true} path={'/'} component={Home} />
+        <Route exact={true} path={'/tajayeonseub'} component={tajayeonseub} />
       </div>
     );
   }
