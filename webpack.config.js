@@ -4,6 +4,7 @@ const browserConfig = {
     },
     output: {
         path: __dirname + '/public',
+        publicPath: '/public',
         filename: 'bundle.js'
     },
     module: {
@@ -33,6 +34,7 @@ const serverConfig = {
     output: {
         path: __dirname,
         filename: 'server.js',
+        publicPath: '/',
         globalObject: 'self',
     },
     target: 'node',
